@@ -31,6 +31,10 @@
     color: #4BBEAC;
 }
 
+.navbar {
+    display: flex;
+}
+
 .navbar a {
     position: relative;
     font-size: 18px;
@@ -52,4 +56,10 @@
 
 .navbar a:hover::before {
     width: 100%;
+}
+
+@media (max-width: 850px) {
+    .navbar {
+        flex-direction: column;
+    }
 }
