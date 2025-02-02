@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      Olá, eu soou Vitor Barahona!!!
+      Olá, eu soou Vitor Barahona!!! Desenvolvedor Web
     </>
   )
 }
