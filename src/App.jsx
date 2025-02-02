@@ -1,11 +1,12 @@
 
 import './App.css'
+import NavBar from './assets/Components/Navbar/NavBar'
 
 function App() {
 
   return (
     <>
-      Olá, eu soou Vitor Barahona!!! Desenvolvedor Web
+      <NavBar />
     </>
   )
 }
