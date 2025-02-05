@@ -5,8 +5,10 @@ const NavBar = () => {
     return (
         <header className="header">
             <div className="logo">
-                <img src={logo} alt="FotoLogo" />
-                <a href="/" className='logo'>Portfó<span>lio</span></a>
+                <a href="/" className='logo'>
+                    <img src={logo} alt="FotoLogo" />
+                    Portfó<span>lio</span>
+                </a>
             </div>
 
             <nav className="navbar">
