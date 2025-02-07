@@ -1,0 +1,28 @@
+.home-Container {
+    height: 100vh;
+    width: 100%;
+    padding: 20px 10%;
+    background: #191919;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-my-name {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+    span {
+        color: #4BBEAC;
+    }
+}
+    
+.home-img img {
+    height: 500px;
+    width: 600px;
+    border-radius: 15px;
+}
