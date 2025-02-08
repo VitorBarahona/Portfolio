@@ -5,23 +5,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 50px;
+
+    .foto-sobre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .foto-sobre img {
-        height: 400px;
+
+        height: 380px;
         border-radius: 100%;
         border: 3px solid #4BBEAC;
-        margin-right: 80px;
     }
 
     .descr-sobre {
         h2 {
             color: #ffffff;
-            font-size: 60px;
+            font-size: 50px;
         }
 
         p {
             color: aquamarine;
-            font-size: 24px;
+            font-size: 22px;
             margin-top: 30px;
             margin-bottom: 30px;
         }
@@ -48,5 +55,29 @@
             text-decoration: none;
             list-style: none;
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .sobre-Container {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 5%;
+    }
+
+    .foto-sobre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foto-sobre img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 300px;
+        border-radius: 100%;
+        border: 3px solid #4BBEAC;
+
     }
 }

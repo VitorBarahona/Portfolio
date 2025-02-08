@@ -1,6 +1,5 @@
-import React from 'react'
 import './Home.css'
-import fotoHome from '../../assets/img/back.webp'
+// import fotoHome from '../../assets/img/back.webp'
 
 function Home() {
   return (
@@ -10,7 +9,7 @@ function Home() {
         <h3>Desenvolvedor Front End</h3>
       </div>
       <div className="home-img">
-        <img src={fotoHome} alt="" />
+        {/* <img src={fotoHome} alt="" /> */}
       </div>
     </div>
   )
