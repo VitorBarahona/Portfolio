@@ -32,14 +32,12 @@ function Projetos() {
         <div className="card">
           <img src={logoCronometro} alt="Logo Cronômetro" />
           <h5>Cronometro</h5>
-          <p className='ProjectDescription'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum adipisci asperiores quos excepturi
-            eaque quasi natus placeat neque totam quidem alias, architecto beatae laboriosam fugit doloribus
-            velit.</p>
+          <p className='ProjectDescription'>Este projeto consiste em um cronômetro digital simples. Ele permite ao usuário iniciar, pausar e resetar a contagem do tempo, proporcionando uma interface intuitiva e responsiva.</p>
             <p className='ProjetcTecnologies'>
-            Tecnologias: HTML e CSS.
+            Tecnologias: HTML, CSS e JavaScript.
           </p>
-          <a target='_blank' href="https://vitorbarahona.github.io/Netflix/">Projeto</a>
-          <a target='_blank' href="https://vitorbarahona.github.io/Netflix/">Código</a>
+          <a target='_blank' href="https://projeto-cronometro-beige.vercel.app/">Projeto</a>
+          <a target='_blank' href="https://github.com/VitorBarahona/ProjetoCronometro">Código</a>
         </div>
       </div>
     </div>
