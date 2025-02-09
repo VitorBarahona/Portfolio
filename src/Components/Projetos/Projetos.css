@@ -57,6 +57,7 @@
         list-style: none;
         text-decoration: none;
         transition: 0.3s;
+        margin: 5px;
     }
 
     .card a:hover {

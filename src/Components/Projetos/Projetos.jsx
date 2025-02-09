@@ -14,7 +14,8 @@ function Projetos() {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum adipisci asperiores quos excepturi
                     eaque quasi natus placeat neque totam quidem alias, architecto beatae laboriosam fugit doloribus
                     velit. Perspiciatis, et beatae!</p>
-                <a href="https://vitorbarahona.github.io/Netflix/">Ver Projeto</a>
+                  <a href="https://vitorbarahona.github.io/Netflix/">Projeto</a>
+                  <a href="https://vitorbarahona.github.io/Netflix/">Código</a>
             </div>
             <div className="card">
                 <img src={logoStarbucks} alt="Logo Starbucks" />
@@ -22,7 +23,8 @@ function Projetos() {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum adipisci asperiores quos excepturi
                     eaque quasi natus placeat neque totam quidem alias, architecto beatae laboriosam fugit doloribus
                     velit. Perspiciatis, et beatae!</p>
-                <a href="">Ver Projeto</a>
+                    <a href="https://vitorbarahona.github.io/Netflix/">Projeto</a>
+                    <a href="https://vitorbarahona.github.io/Netflix/">Código</a>
             </div>
             <div className="card">
                 <img src={logoCronometro} alt="Logo Cronômetro" />
@@ -30,7 +32,8 @@ function Projetos() {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum adipisci asperiores quos excepturi
                     eaque quasi natus placeat neque totam quidem alias, architecto beatae laboriosam fugit doloribus
                     velit. Perspiciatis, et beatae!</p>
-                <a href="">Ver Projeto</a>
+                    <a href="https://vitorbarahona.github.io/Netflix/">Projeto</a>
+                    <a href="https://vitorbarahona.github.io/Netflix/">Código</a>
             </div>
         </div>
     </div>

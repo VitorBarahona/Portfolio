@@ -4,7 +4,7 @@
     padding: 20px 10%;
     background: #191919;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -14,7 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 50px;
 
     span {
         color: #4BBEAC;
@@ -22,7 +22,23 @@
 }
     
 .home-img img {
-    height: 500px;
-    width: 600px;
-    border-radius: 15px;
+    width: 100%;
+    border-radius: 65px;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .home-Container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-my-name {
+        padding: 10px;
+        height: 300px;
+    }
+
+    .home-img img {
+        padding: 10px;
+        border-radius: 25px;
+    }
 }
