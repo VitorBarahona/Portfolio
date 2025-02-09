@@ -1,41 +1,47 @@
 import './Projetos.css'
 import logoNetflix from '../../assets/img/netflix.png'
-import logoStarbucks from '../../assets/img/starbucks.png'
+import logoMarioBros from '../../assets/img/LogoSuperMarioBros.png'
 import logoCronometro from '../../assets/img/crono.png'
 
 function Projetos() {
   return (
-    <div id='projetos' className='projetos-Container'>
-       <h2>Principais Projetos</h2>
-        <div className="cards-projects">
-            <div className="card">
-                <img src={logoNetflix} alt="Logo Netflix" />
-                <h5>Netflix</h5>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum adipisci asperiores quos excepturi
-                    eaque quasi natus placeat neque totam quidem alias, architecto beatae laboriosam fugit doloribus
-                    velit. Perspiciatis, et beatae!</p>
-                  <a href="https://vitorbarahona.github.io/Netflix/">Projeto</a>
-                  <a href="https://vitorbarahona.github.io/Netflix/">Código</a>
-            </div>
-            <div className="card">
-                <img src={logoStarbucks} alt="Logo Starbucks" />
-                <h5>Starbucks</h5>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum adipisci asperiores quos excepturi
-                    eaque quasi natus placeat neque totam quidem alias, architecto beatae laboriosam fugit doloribus
-                    velit. Perspiciatis, et beatae!</p>
-                    <a href="https://vitorbarahona.github.io/Netflix/">Projeto</a>
-                    <a href="https://vitorbarahona.github.io/Netflix/">Código</a>
-            </div>
-            <div className="card">
-                <img src={logoCronometro} alt="Logo Cronômetro" />
-                <h5>Cronometro</h5>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum adipisci asperiores quos excepturi
-                    eaque quasi natus placeat neque totam quidem alias, architecto beatae laboriosam fugit doloribus
-                    velit. Perspiciatis, et beatae!</p>
-                    <a href="https://vitorbarahona.github.io/Netflix/">Projeto</a>
-                    <a href="https://vitorbarahona.github.io/Netflix/">Código</a>
-            </div>
+    <div id='projetos' className='projectsContainer'>
+      <h2>Principais Projetos</h2>
+      <div className="projectsCards">
+        <div className="card">
+          <img src={logoNetflix} alt="Logo Netflix" />
+          <h5>Netflix</h5>
+          <p className='ProjectDescription'>Este projeto consiste no desenvolvimento da tela de login da Netflix, recriada com as melhores práticas de design e desenvolvimento web. O objetivo foi replicar o layout fiel ao design oficial.
+          </p>
+          <p className='ProjetcTecnologies'>
+            Tecnologias: HTML e CSS.
+          </p>
+          <a target='_blank' href="https://projeto-netflix-rosy.vercel.app/">Projeto</a>
+          <a target='_blank' href="https://github.com/VitorBarahona/ProjetoNetflix">Código</a>
         </div>
+        <div className="card">
+          <img src={logoMarioBros} alt="Logo Starbucks" />
+          <h5>Jogo Mário Bros.</h5>
+          <p className='ProjectDescription'>Este projeto é uma recriação do clássico Super Mario Bros, utilizando @keyframes. O objetivo foi recriar o jogo de plataforma 2D para rodar diretamente no navegador, utilizando apenas tecnologias web.</p>
+            <p className='ProjetcTecnologies'>
+            Tecnologias: HTML, CSS e JavaScript.
+          </p>
+          <a target='_blank' href="https://projeto-jogo-mario-six.vercel.app/">Projeto</a>
+          <a target='_blank' href="https://github.com/VitorBarahona/ProjetoJogoMario">Código</a>
+        </div>
+        <div className="card">
+          <img src={logoCronometro} alt="Logo Cronômetro" />
+          <h5>Cronometro</h5>
+          <p className='ProjectDescription'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum adipisci asperiores quos excepturi
+            eaque quasi natus placeat neque totam quidem alias, architecto beatae laboriosam fugit doloribus
+            velit.</p>
+            <p className='ProjetcTecnologies'>
+            Tecnologias: HTML e CSS.
+          </p>
+          <a target='_blank' href="https://vitorbarahona.github.io/Netflix/">Projeto</a>
+          <a target='_blank' href="https://vitorbarahona.github.io/Netflix/">Código</a>
+        </div>
+      </div>
     </div>
   )
 }
