@@ -29,6 +29,5 @@ export const projectList = [
         tecnologias: "HTML, CSS e JavaScript.",
         projectLink: "https://projeto-cronometro-beige.vercel.app/",
         projectCode: "https://github.com/VitorBarahona/ProjetoCronometro",
-    },
-    
+    },    
 ]
