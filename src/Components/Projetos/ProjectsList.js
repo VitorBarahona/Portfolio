@@ -1,6 +1,7 @@
 import logoNetflix from '../../assets/img/netflix.png'
 import logoMarioBros from '../../assets/img/LogoSuperMarioBros.png'
 import logoCronometro from '../../assets/img/crono.png'
+import logoBarahonaVeiculos from '../../assets/img/BV-Screen.png'
 
 export const projectList = [
     {
@@ -29,5 +30,14 @@ export const projectList = [
         tecnologias: "HTML, CSS e JavaScript.",
         projectLink: "https://projeto-cronometro-beige.vercel.app/",
         projectCode: "https://github.com/VitorBarahona/ProjetoCronometro",
+    },
+    {
+        id: 4,
+        img: logoBarahonaVeiculos,
+        name: "Barahona Veículos",
+        description: "Site moderno e interativo para uma agência de veículos de luxo, contando com uma galeria de imagens com slider animado para melhor visualização dos veículos.",
+        tecnologias: "HTML, CSS e JavaScript.",
+        projectLink: "https://projeto-barahona-veiculos.vercel.app/",
+        projectCode: "https://github.com/VitorBarahona/ProjetoBarahonaVeiculos",
     },    
 ]
