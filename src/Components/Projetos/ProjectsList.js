@@ -2,6 +2,7 @@ import logoNetflix from '../../assets/img/netflix.png'
 import logoMarioBros from '../../assets/img/LogoSuperMarioBros.png'
 import logoCronometro from '../../assets/img/crono.png'
 import logoBarahonaVeiculos from '../../assets/img/BV-Screen.png'
+import logoCafeteria from '../../assets/img/Cafeteria-Screen.png'
 
 export const projectList = [
     {
@@ -39,5 +40,14 @@ export const projectList = [
         tecnologias: "HTML, CSS e JavaScript.",
         projectLink: "https://projeto-barahona-veiculos.vercel.app/",
         projectCode: "https://github.com/VitorBarahona/ProjetoBarahonaVeiculos",
-    },    
+    },
+    {
+        id: 5,
+        img: logoCafeteria,
+        name: "Cafeteria BaraDev",
+        description: "Site moderno e interativo para uma cafeteria, completo com navbar composta por home, sobre, menu, avaliações e endereço todos funcionais.",
+        tecnologias: "HTML e CSS.",
+        projectLink: "https://projeto-cafeteria-seven.vercel.app/",
+        projectCode: "https://github.com/VitorBarahona/ProjetoCafeteria",
+    },
 ]
