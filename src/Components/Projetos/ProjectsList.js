@@ -3,6 +3,7 @@ import logoMarioBros from '../../assets/img/LogoSuperMarioBros.png'
 import logoCronometro from '../../assets/img/crono.png'
 import logoBarahonaVeiculos from '../../assets/img/BV-Screen.png'
 import logoCafeteria from '../../assets/img/Cafeteria-Screen.png'
+import logoPrevTemp from '../../assets/img/PrevTemp-Screen.png'
 
 export const projectList = [
     {
@@ -49,5 +50,14 @@ export const projectList = [
         tecnologias: "HTML e CSS.",
         projectLink: "https://projeto-cafeteria-seven.vercel.app/",
         projectCode: "https://github.com/VitorBarahona/ProjetoCafeteria",
+    },
+    {
+        id: 6,
+        img: logoPrevTemp,
+        name: "Previsão do Tempo",
+        description: "Site que fornece previsões climáticas de cidades. Utilizei a função fetch para buscar e consumir os dados da API de previsão do tempo, garantindo informações sempre atualizadas de forma eficiente e rápida.",
+        tecnologias: "HTML, CSS e JavaScript.",
+        projectLink: "https://projeto-previsao-do-tempo-roan.vercel.app/",
+        projectCode: "https://github.com/VitorBarahona/ProjetoPrevisaoDoTempo",
     },
 ]
