@@ -5,8 +5,18 @@ import logoBarahonaVeiculos from '../../assets/img/BV-Screen.png'
 import logoCafeteria from '../../assets/img/Cafeteria-Screen.png'
 import logoPrevTemp from '../../assets/img/PrevTemp-Screen.png'
 import logoDevBuguer from '../../assets/img/DevBurguer-Screen.png'
+import logoPetShopDev from '../../assets/img/PetShoDev-Screen.png'
 
 export const projectList = [
+    {
+        id: 8,
+        img: logoPetShopDev,
+        name: "Pet Shop Dev",
+        description: "Site responsivo para um PetShop. Com navegação intuitiva e agradável, permitindo que o usuário explore os serviços com facilidade, tanto no desktop quanto no mobile.",
+        tecnologias: "HTML, CSS, Tailwind, JavaScript e NextJs.",
+        projectLink: "https://projeto-pet-shop-dev.vercel.app/",
+        projectCode: "https://github.com/VitorBarahona/ProjetoPetShopDev",
+    },
     {
         id: 7,
         img: logoDevBuguer,
