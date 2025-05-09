@@ -1,7 +1,7 @@
 .sobre-Container {
     height: 100%;
     width: 100%;
-    padding: 20px 10%;
+    padding: 30px 4%;
     background: black;
     display: flex;
     justify-content: space-between;
@@ -24,14 +24,16 @@
     .descr-sobre {
         h2 {
             color: #ffffff;
-            font-size: 50px;
+            font-size: 50px;          
+
         }
 
         p {
             color: aquamarine;
-            font-size: 22px;
+            font-size: 18px;
             margin-top: 30px;
             margin-bottom: 30px;
+            text-align: justify;
         }
 
         button {
@@ -64,21 +66,15 @@
         flex-direction: column;
         text-align: center;
         padding: 30px 5%;
-    }
 
-    .foto-sobre {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .foto-sobre img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 300px;
-        border-radius: 100%;
-        border: 3px solid #4BBEAC;
-
+        .descr-sobre {
+            h2 {
+                font-size: 40px;    
+            };
+            
+            p {
+                font-size: 16px;
+            }
+        }
     }
 }

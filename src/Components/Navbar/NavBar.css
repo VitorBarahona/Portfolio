@@ -26,9 +26,7 @@
     .logo span {
         color: #4BBEAC;
     }
-    .navbar {
-        display: flex;
-    }
+  
     .navbar a {
         position: relative;
         font-size: 18px;
@@ -51,8 +49,102 @@
     }
 }
 
+/* Estilos do menu hamburguer */
+.menu-hamburguer {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 4;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    width: 35px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 5;
+    position: relative;
+    cursor: pointer;
+}
+
+.linha {
+    height: 4px;
+    background-color: #4BBEAC;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+/* Estilos do Menu */
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 2;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+.menu {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    text-align: center;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 20px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+/* Animação */
+#menu-toggle:checked + .menu-icon .linha:nth-child(1) {
+    transform: rotate(45deg) translate(13px, 13px);
+}
+
+#menu-toggle:checked + .menu-icon .linha:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-toggle:checked + .menu-icon .linha:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+#menu-toggle:checked ~ .overlay {
+    transform: scale(1);
+}
+
 @media (max-width: 750px) {
     .navbar {
-        flex-direction: column;
+        display: none;
+        
+    }
+    .menu-hamburguer {
+        display: flex;
     }
 }
